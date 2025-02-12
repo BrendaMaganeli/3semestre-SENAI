@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'poppins', sans-serif;
+  background: #c7bcca;
+  color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home, .jogo, .historia {
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+ 
+}
+
+h1 {
+  font-size: 40px;
+  color: #e67e22;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 30px;
+  color: #ecf0f1;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  color: #bdc3c7;
+  margin-bottom: 20px;
+}
+
+
+
+
+.emoji-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.rolled-emoji {
+  font-size: 80px; 
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
+button {
+  background-color: #443053;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 15px 0;
+  width: 100%;
+  max-width: 250px;
+}
+
